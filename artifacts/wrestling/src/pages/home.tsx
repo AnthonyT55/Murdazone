@@ -204,19 +204,20 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-4xl md:text-6xl font-display font-bold uppercase tracking-tight mb-6">
-                The Masterclass
+                Secrets Behind the Inside Trip
               </h2>
               <p className="text-lg text-muted-foreground mb-10">
-                This isn't a random collection of cool-looking moves. It's a systematic approach to dominating every position on the mat.
+                The inside trip is one of the highest-percentage finishes in wrestling — when you set it up right. We break down every detail most coaches skip.
               </p>
               
               <div className="space-y-6">
                 {[
-                  "Neutral: Hand fighting & tie-ups that dictate the pace",
-                  "Offense: High-percentage setups and finishes",
-                  "Defense: Sprawling, heavy hips, and short offense",
-                  "Top: Wrist control, riding parallel, and turns",
-                  "Bottom: First-movement explosions and escapes"
+                  "Setup: The tie-ups and head position that force the opening",
+                  "Entry: Stepping inside without telegraphing the trip",
+                  "Off-balance: Loading their weight onto the trapped leg",
+                  "The Trip: Hooking and elevating with the correct angle",
+                  "The Finish: Driving through the hips and securing the pin",
+                  "Counters: Recovering when they sprawl or post the leg"
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-4">
                     <CheckCircle2 className="w-6 h-6 text-primary shrink-0 mt-0.5" />
@@ -253,7 +254,7 @@ export default function Home() {
             </div>
             <div className="order-1 md:order-2">
               <h2 className="text-4xl md:text-5xl font-display font-bold uppercase tracking-tight mb-2">
-                Coach Marcus
+                Coach Murda
               </h2>
               <div className="text-primary font-bold tracking-widest uppercase mb-8">Head Instructor</div>
               
