@@ -1,6 +1,6 @@
 kind = "web"
 previewPath = "/"
-title = "Get Better at Wrestling"
+title = "Murda Your Comptetition"
 version = "1.0.0"
 id = "artifacts/wrestling"
 router = "path"

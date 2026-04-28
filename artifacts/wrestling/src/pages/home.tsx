@@ -90,8 +90,8 @@ export default function Home() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-6xl md:text-8xl lg:text-9xl font-display font-bold uppercase leading-[0.85] tracking-tight mb-8"
           >
-            Get Better <br className="hidden md:block" />
-            <span className="text-transparent bg-clip-text bg-gradient-to-b from-white to-white/40">at Wrestling</span>
+            Murda Your <br className="hidden md:block" />
+            <span className="text-transparent bg-clip-text bg-gradient-to-b from-white to-white/40">Competition</span>
           </motion.h1>
           
           <motion.p 
@@ -100,7 +100,7 @@ export default function Home() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-10 leading-relaxed"
           >
-            No fluff. No magic tricks. Just the fundamental techniques, positioning, and mindset that separates the champions from the guys who almost made it.
+            Hard work can only get you so far. Learn the real secrets your coach won't teach you. Guaranteed to make you win more matches.
           </motion.p>
           
           <motion.div 
@@ -204,20 +204,19 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-4xl md:text-6xl font-display font-bold uppercase tracking-tight mb-6">
-                Secrets Behind the Inside Trip
+                The Masterclass
               </h2>
               <p className="text-lg text-muted-foreground mb-10">
-                The inside trip is one of the highest-percentage finishes in wrestling — when you set it up right. We break down every detail most coaches skip.
+                This isn't a random collection of cool-looking moves. It's a systematic approach to dominating every position on the mat.
               </p>
               
               <div className="space-y-6">
                 {[
-                  "Setup: The tie-ups and head position that force the opening",
-                  "Entry: Stepping inside without telegraphing the trip",
-                  "Off-balance: Loading their weight onto the trapped leg",
-                  "The Trip: Hooking and elevating with the correct angle",
-                  "The Finish: Driving through the hips and securing the pin",
-                  "Counters: Recovering when they sprawl or post the leg"
+                  "Neutral: Hand fighting & tie-ups that dictate the pace",
+                  "Offense: High-percentage setups and finishes",
+                  "Defense: Sprawling, heavy hips, and short offense",
+                  "Top: Wrist control, riding parallel, and turns",
+                  "Bottom: First-movement explosions and escapes"
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-4">
                     <CheckCircle2 className="w-6 h-6 text-primary shrink-0 mt-0.5" />
