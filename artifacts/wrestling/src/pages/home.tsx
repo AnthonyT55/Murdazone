@@ -48,7 +48,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="text-2xl font-display font-bold tracking-widest text-white flex items-center gap-2">
             <div className="w-4 h-4 bg-primary rounded-sm rotate-45" />
-            PINPOINT
+            MURDAZONE
           </div>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
             <a href="#problems" className="hover:text-white transition-colors">The Problem</a>
@@ -265,7 +265,7 @@ export default function Home() {
                   It's not about learning the fanciest flying squirrel throw. It's about brutal, uncompromising fundamentals. Being out of position by two inches is the difference between a takedown and getting snapped to the mat.
                 </p>
                 <p>
-                  I built PinPoint to give you the blueprint I wish I had when I was 16. No fluff. Just what works.
+                  I built Murdazone to give you the blueprint I wish I had when I was 16. No fluff. Just what works.
                 </p>
               </div>
               
@@ -398,7 +398,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-xl font-display font-bold tracking-widest text-white flex items-center gap-2">
             <div className="w-3 h-3 bg-primary rounded-sm rotate-45" />
-            PINPOINT WRESTLING
+            MURDAZONE
           </div>
           
           <div className="flex gap-6 text-sm font-medium text-muted-foreground uppercase tracking-wider">
@@ -408,7 +408,7 @@ export default function Home() {
           </div>
           
           <div className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} PinPoint Wrestling. All rights reserved.
+            © {new Date().getFullYear()} Murdazone. All rights reserved.
           </div>
         </div>
       </footer>
