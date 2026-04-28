@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import { CheckCircle2, ChevronRight, PlayCircle, Trophy, Zap, Shield, Mail } from "lucide-react";
+import { CheckCircle2, ChevronRight, PlayCircle, Trophy, Shield, Mail } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 export default function Home() {
@@ -74,16 +74,6 @@ export default function Home() {
         </div>
         
         <div className="max-w-7xl mx-auto px-6 relative z-10 flex flex-col items-center text-center">
-          <motion.div 
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.7 }}
-            className="inline-flex items-center gap-2 px-3 py-1 bg-white/5 border border-white/10 text-primary font-bold text-sm uppercase tracking-widest mb-8"
-          >
-            <Zap className="w-4 h-4" />
-            Stop losing matches you should be winning
-          </motion.div>
-          
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -204,19 +194,18 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-4xl md:text-6xl font-display font-bold uppercase tracking-tight mb-6">
-                The Masterclass
+                Secrets Behind the Inside Trip
               </h2>
               <p className="text-lg text-muted-foreground mb-10">
-                This isn't a random collection of cool-looking moves. It's a systematic approach to dominating every position on the mat.
+                Add Coach Murda's #1 takedown to your arsenal.
               </p>
               
               <div className="space-y-6">
                 {[
-                  "Neutral: Hand fighting & tie-ups that dictate the pace",
-                  "Offense: High-percentage setups and finishes",
-                  "Defense: Sprawling, heavy hips, and short offense",
-                  "Top: Wrist control, riding parallel, and turns",
-                  "Bottom: First-movement explosions and escapes"
+                  "Setup",
+                  "When to hit it",
+                  "What to do after",
+                  "How to counter defense"
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-4">
                     <CheckCircle2 className="w-6 h-6 text-primary shrink-0 mt-0.5" />
