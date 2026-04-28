@@ -1,0 +1,44 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "t-gtG_S0w6WQRssI4i2lW"
+uri = "file://artifacts/wrestling/public/images/hero.png"
+type = "image"
+title = "Wrestling hero cinematic mat scene"
+
+[[generated]]
+id = "A1SbASNaOEF-_AYL8EVqK"
+uri = "file://artifacts/wrestling/public/images/gas-out.png"
+type = "image"
+title = "Exhausted wrestler hands on knees"
+
+[[generated]]
+id = "osprSJGOiGvXac2FCpys7"
+uri = "file://artifacts/wrestling/public/images/stuck-shot.png"
+type = "image"
+title = "Wrestling takedown attempt stuffed"
+
+[[generated]]
+id = "WwVXzUUAUIkHNMGKMSnZJ"
+uri = "file://artifacts/wrestling/public/images/bottom-position.png"
+type = "image"
+title = "Wrestler stuck on bottom position"
+
+[[generated]]
+id = "XSQ4DJwaWmM8gWCbqZqkG"
+uri = "file://artifacts/wrestling/public/images/coach.png"
+type = "image"
+title = "Tough wrestling coach portrait"
+
+[[generated]]
+id = "kaLnNpbg3vL8_1g5v_2E2"
+uri = "file://artifacts/wrestling/public/images/avatar1.png"
+type = "image"
+title = "Gritty wrestler avatar 1"
+
+[[generated]]
+id = "xFWKMFf5Ky6ppJa8PwoSt"
+uri = "file://artifacts/wrestling/public/images/avatar2.png"
+type = "image"
+title = "Gritty wrestler avatar 2"
